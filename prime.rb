@@ -12,6 +12,8 @@ end
 
 def prime?(n)  
   
+if first_primes == false
+  
   for x in 2..(n -1)
     new = [n % x]
     
@@ -24,7 +26,7 @@ def prime?(n)
          return true
       end
   end
-  
+ end 
 end
 prime?(6)
 
