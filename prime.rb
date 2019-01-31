@@ -16,9 +16,10 @@ def prime?(n)
     new = [n % x]
     p new
       if new.include?(0)
-        puts "yes"
+        puts "not prime"
         return false
       elsif new.include?(0) == false
+        puts "prime"
         return true
       end
   end
