@@ -25,7 +25,7 @@ def prime?(n)
       end
   end
 end
-prime?(6)
+
 
 
  
