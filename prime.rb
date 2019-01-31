@@ -11,11 +11,11 @@ def first_primes(n)
 end
 
 def prime?(n)  
+  array = []
   for x in 2..(n -1)
     new = [n % x]
-    puts new 
-    new
-    
+    array << new 
+     return array
   end
 end
 prime?(6)
