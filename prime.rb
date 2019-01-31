@@ -12,7 +12,7 @@ end
 
 def prime?(n)  
   for x in 2..(n -1)
-    new = n % x
+    new = [n % x]
     puts new 
     
   end
