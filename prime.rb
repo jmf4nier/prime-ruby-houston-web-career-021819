@@ -20,6 +20,7 @@ def prime?(n)
         return false
       elsif 
         while x < n
+         puts "prime"
          return true
       end
   end
