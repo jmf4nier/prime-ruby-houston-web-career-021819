@@ -18,6 +18,9 @@ def prime?(n)
       if new.include?(0)
         puts "not prime"
         return false
+      elsif 
+        while x < n
+         return true
       end
   end
   
