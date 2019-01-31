@@ -16,7 +16,7 @@ def prime?(n)
     new = [n % x]
     p new
       if new.include?(0)
-        puts yes
+        puts "yes"
       end
   end
   
