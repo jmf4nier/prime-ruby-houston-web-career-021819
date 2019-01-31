@@ -5,7 +5,7 @@
 
 def prime?(n)  
   
-  if n < 1
+  if n < 1 || n == 1
     puts "not prime"
     return false
   elsif  n == 2 || n == 3    #covers for negatives and 1,2,3(first primes)
