@@ -17,7 +17,7 @@ def prime?(n)
     return new
   end
 end
-prime?(5)
+prime?(6)
 
 
  
