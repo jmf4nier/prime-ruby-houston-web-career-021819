@@ -18,7 +18,7 @@ def prime?(n)
            puts "not prime"
             return false
          elsif 
-            (x == n-1) && new.include?(0) == false
+           (x == n-1) && new.include?(0) == false
            puts "prime"
            return true
          end
