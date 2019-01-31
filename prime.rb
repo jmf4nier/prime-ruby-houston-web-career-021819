@@ -15,6 +15,7 @@ def prime?(n)
     puts n += x  
   end
 end
+prime?(5)
 
 
  
