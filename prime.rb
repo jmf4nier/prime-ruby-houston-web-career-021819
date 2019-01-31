@@ -10,8 +10,11 @@ def first_primes(n)
   end
 end
 
-  
-  
+def prime?(n)  
+  for x in 2...n
+    puts n += x  
+  end
+end
 
 
  
