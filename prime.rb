@@ -18,9 +18,6 @@ def prime?(n)
       if new.include?(0)
         puts "not prime"
         return false
-      elsif new.include?(0) == false
-        puts "prime"
-        return true
       end
   end
   
