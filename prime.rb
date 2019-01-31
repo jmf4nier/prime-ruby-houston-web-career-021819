@@ -17,6 +17,7 @@ def prime?(n)
     p new
       if new.include?(0)
         puts "yes"
+        return false
       end
   end
   
