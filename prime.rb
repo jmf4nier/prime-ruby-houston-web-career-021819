@@ -12,7 +12,8 @@ end
 
 def prime?(n)  
   for x in 2...n
-    puts n += x  
+    new = n + x
+    puts new 
   end
 end
 prime?(5)
