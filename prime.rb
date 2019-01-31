@@ -15,8 +15,9 @@ def prime?(n)
   for x in 2..(n -1)
     new = [n % x]
     p new
-      if new.inlude?(0)
+      if new.inludes?(0)
         puts yes
+      end
   end
   
 end
