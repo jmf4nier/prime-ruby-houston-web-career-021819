@@ -16,7 +16,7 @@ def prime?(n)
     new = [n % x]
     array << new 
   end
-  a
+  
 end
 prime?(6)
 
