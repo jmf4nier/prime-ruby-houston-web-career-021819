@@ -19,7 +19,7 @@ def prime?(n)
         puts "not prime"
         return false
       elsif 
-        while x < n
+        until x == n-1
          puts "prime"
          return true
       end
