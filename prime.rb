@@ -1,6 +1,6 @@
 
 
-def first_primes(n)
+
   
 
 def prime?(n)  
