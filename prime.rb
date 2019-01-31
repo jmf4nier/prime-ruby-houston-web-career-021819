@@ -14,6 +14,7 @@ def prime?(n)
   for x in 2...n
     new = n + x
     puts new 
+    new
   end
 end
 prime?(5)
