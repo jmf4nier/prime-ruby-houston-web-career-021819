@@ -12,7 +12,7 @@ end
 
 def prime?(n)  
   
-if first_primes == false
+
   
   for x in 2..(n -1)
     new = [n % x]
@@ -26,9 +26,7 @@ if first_primes == false
          return true
       end
   end
- else
-   return true
- end 
+
 end
 prime?(6)
 
