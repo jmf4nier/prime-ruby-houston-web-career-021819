@@ -26,6 +26,8 @@ if first_primes == false
          return true
       end
   end
+ else
+   return true
  end 
 end
 prime?(6)
